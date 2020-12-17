@@ -1,0 +1,18 @@
+.progress-bar-container {
+  padding: 30px 10px;
+}
+
+.progress-bar {
+  height: 4px;
+  width: 100%;
+  position: relative;
+  background: rgb(97, 97, 97);
+
+  &__line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: #50e3c2;
+  }
+}
