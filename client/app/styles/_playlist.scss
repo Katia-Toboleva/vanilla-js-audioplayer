@@ -1,0 +1,68 @@
+.playlist {
+  background-color: rgb(0, 0, 0);
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+
+  &__item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background: #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+
+    > :not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover:not(&--active) {
+      background-color: #444;
+    }
+
+    &--active {
+      background-color: #50e3c2;
+      color:rgb(0, 0, 0);
+    }
+
+    &__image {
+      width: 50px;
+      height: 50px;
+      flex-shrink: 1;
+      flex-grow: 0;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px;
+    }
+
+    &__details {
+      flex-shrink: 0;
+      flex-grow: 1;
+      text-transform: capitalize;
+
+      > :not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+
+    &__name {
+      font-weight: 600;
+    }
+
+    &__artist {
+      font-weight: 400;
+    }
+
+    &__extra {
+      flex-shrink: 1;
+      flex-grow: 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
