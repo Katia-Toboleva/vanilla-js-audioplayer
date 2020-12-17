@@ -130,6 +130,8 @@ const app = () => {
     setState({
       currentSong: index,
       play: true,
+      pause: false,
+      stop: false,
     });
   };
 
