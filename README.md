@@ -1,6 +1,6 @@
 ## Audioplayer build with Vanilla JavaScript.
 ### Description: 
-An audioplayer build with plain Vanilla JavaScript. I have recovered some old code and refactored it, the goal was not use and libraries but build everything with plain JS.
+An audio player built with plain Vanilla JavaScript. I have recovered some old code and refactored it, the goal was not use and libraries but build everything with plain JS.
 
 ### Technologies: 
 Vanilla JavaScript, CSS, SCSS, Webpack, Babel, Eslint, Stylelint.
