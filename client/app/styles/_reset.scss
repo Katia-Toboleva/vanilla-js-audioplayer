@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  height: calc(100vh - 100px);
+  padding: 50px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  background: linear-gradient(45deg, rgb(199, 0, 149), rgb(0, 255, 213));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
