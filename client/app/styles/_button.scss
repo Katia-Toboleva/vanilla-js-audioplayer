@@ -1,0 +1,40 @@
+.button-container {
+  display: table;
+  background: rgb(0, 0, 0);
+  border-radius: 40px;
+  margin: auto;
+  padding: 5px 8px;
+}
+
+.button {
+  background: #333;
+  font-size: 30px;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+
+  &:not(:last-of-type) {
+    margin-right: 5px;
+  }
+
+  &:active,
+  &:focus {
+    background-color: #50e3c2;
+    color: rgb(0, 0, 0);
+  }
+
+  &--active {
+    background-color: #50e3c2;
+    color: rgb(0, 0, 0);
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
