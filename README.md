@@ -1,4 +1,4 @@
-## Audioplayer build with Vanilla JavaScript.
+## Audioplayer build with Vanilla JavaScript
 
 ### Description: 
 An audio player built with plain Vanilla JavaScript. I have recovered some old code and refactored it, the goal was not use and libraries but build everything with plain JS.
